@@ -15,7 +15,7 @@ class MiJuego(arcade.Window):
     def on_draw(self):
 
         self.clear()
-        arcade.draw_lrbt_rectangle_filled(0, 800, 0, 200, arcade.color.BITTER_LIME)
+        arcade.draw_lrbt_rectangle_filled(0, 800, 0, 200, arcade.color.BLACK_OLIVE)
         dibujar_coche(sin(self.coordsX)*300,250)
         self.coordsX+=0.01
 
